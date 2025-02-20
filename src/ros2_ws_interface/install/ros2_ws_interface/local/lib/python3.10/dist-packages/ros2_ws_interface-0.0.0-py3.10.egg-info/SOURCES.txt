@@ -1,0 +1,8 @@
+setup.py
+ros2_ws_interface/__init__.py
+ros2_ws_interface.egg-info/PKG-INFO
+ros2_ws_interface.egg-info/SOURCES.txt
+ros2_ws_interface.egg-info/dependency_links.txt
+ros2_ws_interface.egg-info/top_level.txt
+ros2_ws_interface/msg/__init__.py
+ros2_ws_interface/msg/_student.py

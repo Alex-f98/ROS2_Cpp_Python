@@ -1,0 +1,7 @@
+{
+  "package_name": "ros2_ws_interface",
+  "non_idl_tuples": [
+    "/home/user/ros2_ws/src/ros2_ws_interface:msg/Student.msg",
+    "/home/user/ros2_ws/src/ros2_ws_interface:srv/GradePointAverage.srv"
+  ]
+}

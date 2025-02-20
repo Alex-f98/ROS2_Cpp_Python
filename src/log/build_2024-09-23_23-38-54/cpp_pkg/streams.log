@@ -1,0 +1,10 @@
+[0.042s] Invoking command in '/home/user/ros2_ws/src/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/cpp_pkg -- -j8 -l8
+[0.193s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_node_cpp.dir/src/simple_node.cpp.o[0m
+[0.207s] [01m[K/home/user/ros2_ws/src/cpp_pkg/src/simple_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.207s]     1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.207s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.207s] compilation terminated.
+[0.208s] gmake[2]: *** [CMakeFiles/simple_node_cpp.dir/build.make:76: CMakeFiles/simple_node_cpp.dir/src/simple_node.cpp.o] Error 1
+[0.209s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_node_cpp.dir/all] Error 2
+[0.209s] gmake: *** [Makefile:146: all] Error 2
+[0.533s] Invoked command in '/home/user/ros2_ws/src/build/cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/cpp_pkg -- -j8 -l8

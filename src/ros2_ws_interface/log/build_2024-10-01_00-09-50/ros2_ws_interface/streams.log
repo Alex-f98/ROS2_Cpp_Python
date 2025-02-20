@@ -1,0 +1,246 @@
+[0.028s] Invoking command in '/home/user/ros2_ws/src/ros2_ws_interface/build/ros2_ws_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ros2_ws_interface -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface
+[14.792s] -- The C compiler identification is GNU 11.4.0
+[20.558s] -- The CXX compiler identification is GNU 11.4.0
+[20.868s] -- Detecting C compiler ABI info
+[21.384s] -- Detecting C compiler ABI info - done
+[21.393s] -- Check for working C compiler: /usr/bin/cc - skipped
+[21.394s] -- Detecting C compile features
+[21.566s] -- Detecting C compile features - done
+[21.576s] -- Detecting CXX compiler ABI info
+[21.996s] -- Detecting CXX compiler ABI info - done
+[22.004s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[22.004s] -- Detecting CXX compile features
+[22.005s] -- Detecting CXX compile features - done
+[22.033s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[23.049s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[23.440s] -- Found rosidl_default_generators: 1.2.0 (/home/simulations/ros2_sims_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[23.472s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[23.521s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[24.053s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[24.607s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[25.084s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[25.433s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[25.447s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[28.370s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[28.437s] -- Found FastRTPS: /opt/ros/humble/include  
+[28.605s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[28.617s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[28.787s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[28.787s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[28.787s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[28.787s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[28.823s] -- Found PythonExtra: .so  
+[29.080s] -- Configuring done
+[29.228s] -- Generating done
+[29.232s] -- Build files have been written to: /home/user/ros2_ws/src/ros2_ws_interface/build/ros2_ws_interface
+[29.246s] Invoked command in '/home/user/ros2_ws/src/ros2_ws_interface/build/ros2_ws_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ros2_ws_interface -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface
+[29.248s] Invoking command in '/home/user/ros2_ws/src/ros2_ws_interface/build/ros2_ws_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/ros2_ws_interface/build/ros2_ws_interface -- -j8 -l8
+[29.319s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[29.339s] [  6%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[29.367s] [  9%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[29.378s] [  9%] Built target ament_cmake_python_copy_ros2_ws_interface
+[30.097s] [  9%] Built target ros2_ws_interface__rs
+[30.184s] running egg_info
+[30.186s] [  9%] Built target ros2_ws_interface__cpp
+[30.186s] creating ros2_ws_interface.egg-info
+[30.187s] writing ros2_ws_interface.egg-info/PKG-INFO
+[30.187s] writing dependency_links to ros2_ws_interface.egg-info/dependency_links.txt
+[30.187s] writing top-level names to ros2_ws_interface.egg-info/top_level.txt
+[30.188s] writing manifest file 'ros2_ws_interface.egg-info/SOURCES.txt'
+[30.193s] reading manifest file 'ros2_ws_interface.egg-info/SOURCES.txt'
+[30.194s] writing manifest file 'ros2_ws_interface.egg-info/SOURCES.txt'
+[30.261s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[30.261s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[30.263s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[30.288s] [ 21%] [32mBuilding C object CMakeFiles/ros2_ws_interface__rosidl_generator_c.dir/rosidl_generator_c/ros2_ws_interface/msg/detail/student__functions.c.o[0m
+[30.293s] [ 21%] Built target ament_cmake_python_build_ros2_ws_interface_egg
+[30.891s] [ 25%] [32mBuilding CXX object CMakeFiles/ros2_ws_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_ws_interface/msg/student__type_support.cpp.o[0m
+[31.030s] [ 28%] [32mBuilding CXX object CMakeFiles/ros2_ws_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_ws_interface/msg/detail/student__type_support.cpp.o[0m
+[31.032s] [ 31%] [32mBuilding CXX object CMakeFiles/ros2_ws_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_ws_interface/msg/detail/dds_fastrtps/student__type_support.cpp.o[0m
+[31.460s] [ 34%] [32m[1mLinking C shared library libros2_ws_interface__rosidl_generator_c.so[0m
+[31.840s] [ 34%] Built target ros2_ws_interface__rosidl_generator_c
+[31.875s] [ 37%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[31.879s] [ 40%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[31.891s] [ 43%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[32.318s] [ 46%] [32mBuilding CXX object CMakeFiles/ros2_ws_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_ws_interface/msg/student__type_support.cpp.o[0m
+[32.365s] [ 50%] [32mBuilding C object CMakeFiles/ros2_ws_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_ws_interface/msg/detail/student__type_support.c.o[0m
+[32.420s] [ 53%] [32m[1mLinking C shared library libros2_ws_interface__rosidl_typesupport_introspection_c.so[0m
+[32.465s] [ 53%] Built target ros2_ws_interface__rosidl_typesupport_introspection_c
+[32.483s] [ 56%] [32mBuilding CXX object CMakeFiles/ros2_ws_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_ws_interface/msg/detail/student__type_support_c.cpp.o[0m
+[32.692s] [ 59%] [32m[1mLinking CXX shared library libros2_ws_interface__rosidl_typesupport_c.so[0m
+[32.746s] [ 59%] Built target ros2_ws_interface__rosidl_typesupport_c
+[34.900s] [ 62%] [32m[1mLinking CXX shared library libros2_ws_interface__rosidl_typesupport_cpp.so[0m
+[34.966s] [ 62%] Built target ros2_ws_interface__rosidl_typesupport_cpp
+[35.210s] [ 65%] [32m[1mLinking CXX shared library libros2_ws_interface__rosidl_typesupport_introspection_cpp.so[0m
+[35.368s] [ 65%] Built target ros2_ws_interface__rosidl_typesupport_introspection_cpp
+[35.570s] [ 68%] [32m[1mLinking CXX shared library libros2_ws_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[35.736s] [ 71%] [32m[1mLinking CXX shared library libros2_ws_interface__rosidl_typesupport_fastrtps_c.so[0m
+[35.825s] [ 71%] Built target ros2_ws_interface__rosidl_typesupport_fastrtps_cpp
+[35.835s] [ 71%] Built target ros2_ws_interface__rosidl_typesupport_fastrtps_c
+[35.867s] [ 71%] Built target ros2_ws_interface
+[35.900s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[36.381s] [ 75%] Built target ros2_ws_interface__py
+[36.412s] [ 78%] [32mBuilding C object CMakeFiles/ros2_ws_interface__rosidl_generator_py.dir/rosidl_generator_py/ros2_ws_interface/msg/_student_s.c.o[0m
+[37.920s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/ros2_ws_interface/libros2_ws_interface__rosidl_generator_py.so[0m
+[37.970s] [ 81%] Built target ros2_ws_interface__rosidl_generator_py
+[38.011s] [ 84%] [32mBuilding C object CMakeFiles/ros2_ws_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2_ws_interface/_ros2_ws_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[38.012s] [ 87%] [32mBuilding C object CMakeFiles/ros2_ws_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2_ws_interface/_ros2_ws_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[38.013s] [ 90%] [32mBuilding C object CMakeFiles/ros2_ws_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2_ws_interface/_ros2_ws_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[38.191s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/ros2_ws_interface/ros2_ws_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[38.199s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ros2_ws_interface/ros2_ws_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[38.199s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros2_ws_interface/ros2_ws_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[38.263s] [100%] Built target ros2_ws_interface__rosidl_typesupport_c__pyext
+[38.285s] [100%] Built target ros2_ws_interface__rosidl_typesupport_fastrtps_c__pyext
+[38.288s] [100%] Built target ros2_ws_interface__rosidl_typesupport_introspection_c__pyext
+[38.303s] Invoked command in '/home/user/ros2_ws/src/ros2_ws_interface/build/ros2_ws_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/ros2_ws_interface/build/ros2_ws_interface -- -j8 -l8
+[38.486s] Invoking command in '/home/user/ros2_ws/src/ros2_ws_interface/build/ros2_ws_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/src/ros2_ws_interface/build/ros2_ws_interface
+[38.499s] -- Install configuration: ""
+[38.499s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ament_index/resource_index/rosidl_interfaces/ros2_ws_interface
+[38.500s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface
+[38.500s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg
+[38.500s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/detail
+[38.500s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/detail/student__functions.c
+[38.501s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/detail/student__functions.h
+[38.501s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/detail/student__type_support.h
+[38.501s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/detail/student__struct.h
+[38.501s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/rosidl_generator_c__visibility_control.h
+[38.501s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/student.h
+[38.501s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/environment/library_path.sh
+[38.502s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/environment/library_path.dsv
+[38.502s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/lib/libros2_ws_interface__rosidl_generator_c.so
+[38.502s] -- Set runtime path of "/home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/lib/libros2_ws_interface__rosidl_generator_c.so" to ""
+[38.503s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface
+[38.503s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg
+[38.503s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/detail
+[38.503s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/detail/student__rosidl_typesupport_fastrtps_c.h
+[38.503s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[38.503s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/lib/libros2_ws_interface__rosidl_typesupport_fastrtps_c.so
+[38.504s] -- Set runtime path of "/home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/lib/libros2_ws_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[38.504s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface
+[38.504s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg
+[38.504s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/detail
+[38.504s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/detail/student__rosidl_typesupport_introspection_c.h
+[38.504s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/detail/student__type_support.c
+[38.504s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[38.505s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/lib/libros2_ws_interface__rosidl_typesupport_introspection_c.so
+[38.505s] -- Set runtime path of "/home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/lib/libros2_ws_interface__rosidl_typesupport_introspection_c.so" to ""
+[38.505s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/lib/libros2_ws_interface__rosidl_typesupport_c.so
+[38.505s] -- Set runtime path of "/home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/lib/libros2_ws_interface__rosidl_typesupport_c.so" to ""
+[38.505s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface
+[38.506s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg
+[38.506s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/detail
+[38.506s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/detail/student__builder.hpp
+[38.506s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/detail/student__traits.hpp
+[38.506s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/detail/student__struct.hpp
+[38.506s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/student.hpp
+[38.506s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface
+[38.506s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg
+[38.507s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/detail
+[38.507s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp
+[38.507s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/detail/dds_fastrtps
+[38.507s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[38.507s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/lib/libros2_ws_interface__rosidl_typesupport_fastrtps_cpp.so
+[38.508s] -- Set runtime path of "/home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/lib/libros2_ws_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[38.508s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface
+[38.509s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg
+[38.509s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/detail
+[38.509s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp
+[38.509s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/include/ros2_ws_interface/ros2_ws_interface/msg/detail/student__type_support.cpp
+[38.509s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/lib/libros2_ws_interface__rosidl_typesupport_introspection_cpp.so
+[38.509s] -- Set runtime path of "/home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/lib/libros2_ws_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[38.510s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/lib/libros2_ws_interface__rosidl_typesupport_cpp.so
+[38.510s] -- Set runtime path of "/home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/lib/libros2_ws_interface__rosidl_typesupport_cpp.so" to ""
+[38.510s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ament_index/resource_index/rust_packages/ros2_ws_interface
+[38.510s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/rust
+[38.510s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/rust/Cargo.toml
+[38.510s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/rust/src
+[38.510s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/rust/src/msg.rs
+[38.510s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/rust/src/lib.rs
+[38.511s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/rust/build.rs
+[38.511s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/rust
+[38.511s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/rust/Cargo.toml
+[38.511s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/rust/src
+[38.512s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/rust/src/msg.rs
+[38.512s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/rust/src/lib.rs
+[38.512s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/rust/build.rs
+[38.512s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/rust
+[38.512s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/rust/Cargo.toml
+[38.512s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/rust/src
+[38.512s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/rust/src/msg.rs
+[38.512s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/rust/src/lib.rs
+[38.513s] -- Up-to-date: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/rust/build.rs
+[38.513s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/environment/pythonpath.sh
+[38.513s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/environment/pythonpath.dsv
+[38.513s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface-0.0.0-py3.10.egg-info
+[38.513s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[38.513s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface-0.0.0-py3.10.egg-info/top_level.txt
+[38.513s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[38.513s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[38.514s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface
+[38.514s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface/_ros2_ws_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[38.514s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface/ros2_ws_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[38.514s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface/ros2_ws_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[38.515s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface/_ros2_ws_interface_s.ep.rosidl_typesupport_c.c
+[38.515s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface/ros2_ws_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[38.515s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface/msg
+[38.515s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface/msg/__init__.py
+[38.515s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface/msg/_student_s.c
+[38.515s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface/msg/_student.py
+[38.515s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface/libros2_ws_interface__rosidl_generator_py.so
+[38.515s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface/__init__.py
+[38.515s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface/_ros2_ws_interface_s.ep.rosidl_typesupport_introspection_c.c
+[38.575s] Listing '/home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface'...
+[38.575s] Compiling '/home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface/__init__.py'...
+[38.575s] Listing '/home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface/msg'...
+[38.575s] Compiling '/home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface/msg/__init__.py'...
+[38.576s] Compiling '/home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface/msg/_student.py'...
+[38.580s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface/ros2_ws_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[38.580s] -- Set runtime path of "/home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface/ros2_ws_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[38.581s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface/ros2_ws_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[38.581s] -- Set runtime path of "/home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface/ros2_ws_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[38.581s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface/ros2_ws_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[38.582s] -- Set runtime path of "/home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/local/lib/python3.10/dist-packages/ros2_ws_interface/ros2_ws_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[38.582s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/lib/libros2_ws_interface__rosidl_generator_py.so
+[38.582s] -- Set runtime path of "/home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/lib/libros2_ws_interface__rosidl_generator_py.so" to ""
+[38.582s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/msg/Student.idl
+[38.583s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/msg/Student.msg
+[38.583s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ament_index/resource_index/package_run_dependencies/ros2_ws_interface
+[38.583s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ament_index/resource_index/parent_prefix_path/ros2_ws_interface
+[38.583s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/environment/ament_prefix_path.sh
+[38.583s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/environment/ament_prefix_path.dsv
+[38.584s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/environment/path.sh
+[38.584s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/environment/path.dsv
+[38.584s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/local_setup.bash
+[38.584s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/local_setup.sh
+[38.584s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/local_setup.zsh
+[38.584s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/local_setup.dsv
+[38.585s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/package.dsv
+[38.585s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ament_index/resource_index/packages/ros2_ws_interface
+[38.585s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/export_ros2_ws_interface__rosidl_generator_cExport.cmake
+[38.585s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/export_ros2_ws_interface__rosidl_generator_cExport-noconfig.cmake
+[38.586s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/export_ros2_ws_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[38.586s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/export_ros2_ws_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[38.586s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/ros2_ws_interface__rosidl_typesupport_introspection_cExport.cmake
+[38.586s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/ros2_ws_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[38.586s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/ros2_ws_interface__rosidl_typesupport_cExport.cmake
+[38.587s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/ros2_ws_interface__rosidl_typesupport_cExport-noconfig.cmake
+[38.587s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/export_ros2_ws_interface__rosidl_generator_cppExport.cmake
+[38.587s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/export_ros2_ws_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[38.587s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/export_ros2_ws_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[38.588s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/ros2_ws_interface__rosidl_typesupport_introspection_cppExport.cmake
+[38.588s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/ros2_ws_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[38.588s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/ros2_ws_interface__rosidl_typesupport_cppExport.cmake
+[38.588s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/ros2_ws_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[38.588s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/export_ros2_ws_interface__rosidl_generator_pyExport.cmake
+[38.589s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/export_ros2_ws_interface__rosidl_generator_pyExport-noconfig.cmake
+[38.589s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/rosidl_cmake-extras.cmake
+[38.589s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.589s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[38.589s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/ament_cmake_export_targets-extras.cmake
+[38.591s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[38.591s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.591s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[38.591s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/ros2_ws_interfaceConfig.cmake
+[38.591s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/cmake/ros2_ws_interfaceConfig-version.cmake
+[38.591s] -- Installing: /home/user/ros2_ws/src/ros2_ws_interface/install/ros2_ws_interface/share/ros2_ws_interface/package.xml
+[38.593s] Invoked command in '/home/user/ros2_ws/src/ros2_ws_interface/build/ros2_ws_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/src/ros2_ws_interface/build/ros2_ws_interface
